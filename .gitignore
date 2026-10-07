@@ -1,0 +1,6 @@
+# Data directories (large files)
+test_grd/
+train_grd/
+*.zip
+*.tar.gz
+.ipynb_checkpoints/
