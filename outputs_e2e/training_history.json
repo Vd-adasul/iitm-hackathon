@@ -1,0 +1,79 @@
+[
+  {
+    "epoch": 1,
+    "train_loss": 0.18927231013324733,
+    "val_flood_iou_argmax": 0.6577596864205509,
+    "val_flood_f1_argmax": 0.7935525176641149,
+    "val_threshold_diagnostic": 0.65,
+    "val_threshold_iou_diagnostic": 0.7206843221326086,
+    "val_threshold_f1_diagnostic": 0.8376717482256077,
+    "lr": 0.0002,
+    "epoch_seconds": 1421.618955373764
+  },
+  {
+    "epoch": 2,
+    "train_loss": 0.14747837597162775,
+    "val_flood_iou_argmax": 0.7601464210121595,
+    "val_flood_f1_argmax": 0.8637308941321401,
+    "val_threshold_diagnostic": 0.3,
+    "val_threshold_iou_diagnostic": 0.7773535248514607,
+    "val_threshold_f1_diagnostic": 0.8747314633608716,
+    "lr": 0.0002,
+    "epoch_seconds": 1582.8768203258514
+  },
+  {
+    "epoch": 3,
+    "train_loss": 0.13741237361279005,
+    "val_flood_iou_argmax": 0.3304460032476935,
+    "val_flood_f1_argmax": 0.4967447043187867,
+    "val_threshold_diagnostic": 0.15,
+    "val_threshold_iou_diagnostic": 0.49414091868962584,
+    "val_threshold_f1_diagnostic": 0.6614381716056495,
+    "lr": 0.0002,
+    "epoch_seconds": 1457.4313468933105
+  },
+  {
+    "epoch": 4,
+    "train_loss": 0.13329565071252486,
+    "val_flood_iou_argmax": 0.5584392654866881,
+    "val_flood_f1_argmax": 0.7166647784792459,
+    "val_threshold_diagnostic": 0.9,
+    "val_threshold_iou_diagnostic": 0.6688785363460245,
+    "val_threshold_f1_diagnostic": 0.801590435467545,
+    "lr": 0.0002,
+    "epoch_seconds": 1456.164218902588
+  },
+  {
+    "epoch": 5,
+    "train_loss": 0.13039435114199296,
+    "val_flood_iou_argmax": 0.4088030993241923,
+    "val_flood_f1_argmax": 0.5803551958684596,
+    "val_threshold_diagnostic": 0.1,
+    "val_threshold_iou_diagnostic": 0.5353383978419057,
+    "val_threshold_f1_diagnostic": 0.6973555778900407,
+    "lr": 0.0001,
+    "epoch_seconds": 1458.140347480774
+  },
+  {
+    "epoch": 6,
+    "train_loss": 0.12445559582005565,
+    "val_flood_iou_argmax": 0.3598812318511872,
+    "val_flood_f1_argmax": 0.5292833277230923,
+    "val_threshold_diagnostic": 0.1,
+    "val_threshold_iou_diagnostic": 0.5060575834700805,
+    "val_threshold_f1_diagnostic": 0.6720295279866818,
+    "lr": 0.0001,
+    "epoch_seconds": 1462.1469514369965
+  },
+  {
+    "epoch": 7,
+    "train_loss": 0.12318354773769775,
+    "val_flood_iou_argmax": 0.6297802766538063,
+    "val_flood_f1_argmax": 0.7728407143898486,
+    "val_threshold_diagnostic": 0.8,
+    "val_threshold_iou_diagnostic": 0.7026655940918156,
+    "val_threshold_f1_diagnostic": 0.8253712256006562,
+    "lr": 0.0001,
+    "epoch_seconds": 1456.8606250286102
+  }
+]

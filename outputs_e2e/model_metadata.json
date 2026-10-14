@@ -1,0 +1,59 @@
+{
+  "model": "U-Net resnet50, six temporal SAR channels, three classes",
+  "encoder_name": "resnet50",
+  "channels": [
+    "sec1_vv",
+    "sec1_vh",
+    "sec2_vv",
+    "sec2_vh",
+    "flood_vv",
+    "flood_vh"
+  ],
+  "class_names": [
+    "no_water",
+    "permanent_water",
+    "flood"
+  ],
+  "best_epoch": 2,
+  "best_validation_flood_iou_argmax": 0.7601464210121595,
+  "threshold_selection_policy": "Selected once on validation using the fixed-metric best checkpoint; never used for checkpoint selection.",
+  "normalization": {
+    "mean": [
+      0.09529999643564224,
+      0.026399999856948853,
+      0.09529999643564224,
+      0.026399999856948853,
+      0.09529999643564224,
+      0.026399999856948853
+    ],
+    "std": [
+      0.04270000010728836,
+      0.0215000007301569,
+      0.04270000010728836,
+      0.0215000007301569,
+      0.04270000010728836,
+      0.0215000007301569
+    ],
+    "clip_max": 0.15
+  },
+  "training_config": {
+    "epochs_requested": 20,
+    "batch_size": 4,
+    "lr": 0.0002,
+    "weight_decay": 0.0001,
+    "use_class_weights": false,
+    "class_weights": null
+  },
+  "warning": "Validation is small; transfer to Himalayan terrain remains uncertain.",
+  "best_threshold": 0.3,
+  "threshold_validation_metrics": {
+    "threshold": 0.3,
+    "iou": 0.7773535248514607,
+    "f1": 0.8747314633608716,
+    "precision": 0.8596180846349815,
+    "recall": 0.8903857845229942,
+    "tp": 3914785,
+    "fp": 639313,
+    "fn": 481944
+  }
+}

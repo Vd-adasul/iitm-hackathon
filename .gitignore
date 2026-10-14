@@ -1,6 +1,14 @@
-# Data directories (large files)
-test_grd/
-train_grd/
+# Data directories (large satellite imagery)
+**/test_grd/
+**/train_grd/
+**/val_grd/
 *.zip
 *.tar.gz
 .ipynb_checkpoints/
+**/__pycache__/
+*.pyc
+# Intermediate checkpoint and local dataset
+outputs_e2e/latest_training_checkpoint.pt
+dataset/
+refernce repos/
+*.pdf
